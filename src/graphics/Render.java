@@ -113,6 +113,8 @@ public class Render {
 		
 		glPushMatrix();
 		
+		start2DSpace();
+		
 	}
 	
 	public static void setRenderLayers(RenderLayer... layers){
